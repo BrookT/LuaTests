@@ -11,10 +11,13 @@ days={
 };
 
 for i,v in ipairs(days) do
-  print(v);
+	print(v);
 end
 
 function printDay(x)
 	print(days[x]);
 end
---print(days[1]);
+
+for i=1,10,1 do
+	print(i);
+end
